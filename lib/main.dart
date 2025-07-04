@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:vchatz/screens/login_screen.dart';
+import 'package:vchatz/screens/splash_screen.dart';
 
 late Size mq;
 void main() => runApp(const MyApp());
@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       title: 'V-ChatZ',
-      home: const LoginScreen(),
+      home: const SplashScreen(),
     );
   }
 }
